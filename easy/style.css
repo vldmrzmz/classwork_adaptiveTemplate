@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    height: 300px;
+    width: 1000px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rect{
+    height: 250px;
+    width: 250px;
+    background-color: chocolate;
+}
+@media(max-width: 500px ){
+    .cont{
+        height: 800px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+}
